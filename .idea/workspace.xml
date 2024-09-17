@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4458888-6c4d-437d-8a24-e7fb16162491" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CustomAnomalibLast.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_573.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_627.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_689.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam1_99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/defect/Cam2_2448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_1295.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_1297.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_1315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_575.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_577.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_579.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_625.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_637.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_643.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_645.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_647.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_653.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_655.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_657.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_659.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_663.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_693.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_695.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_697.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_707.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_709.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_711.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam1_723.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2316.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2318.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2326.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2328.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2332.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2338.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2340.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2342.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2346.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2352.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2358.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2362.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2364.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2368.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2370.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2372.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2374.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2378.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2386.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2388.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2392.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2396.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2398.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2402.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2406.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2412.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2414.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2428.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2430.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2432.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2434.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2438.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2440.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2444.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2446.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2464.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2466.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2468.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2470.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2472.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2476.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2478.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2482.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2486.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2488.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2490.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2492.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2494.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2498.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2506.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2510.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2516.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2518.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2522.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2524.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2528.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2530.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2532.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2534.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2538.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2544.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2546.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2548.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2550.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2552.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2554.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2560.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2562.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2564.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2568.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2570.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2572.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2574.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2582.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2584.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2588.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2590.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2592.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2594.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2596.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2598.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2604.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2608.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2610.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2612.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2618.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2620.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2622.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2624.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2626.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2630.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2632.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2634.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2638.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2640.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2642.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2644.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2646.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2648.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2650.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2652.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2656.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2658.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2660.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2662.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2664.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2668.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2670.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2672.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2674.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2676.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2678.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2684.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2686.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2690.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2692.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2698.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2702.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2704.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2706.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2708.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2710.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2712.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2714.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2718.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2722.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2728.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2738.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2742.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2744.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2746.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2748.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2750.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2754.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2756.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2758.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2760.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2764.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2780.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2784.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2786.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2788.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2790.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2792.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2796.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2798.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2802.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2806.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2808.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2810.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2812.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2814.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2818.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2820.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2822.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2824.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2828.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2830.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2832.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2834.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2836.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2838.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2844.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2848.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2850.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2852.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2854.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2856.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2862.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2864.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2866.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2868.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2870.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2872.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2874.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2876.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2880.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2882.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2886.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2888.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2890.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2892.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2894.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2898.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2900.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2904.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2908.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2910.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2912.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2916.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2918.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2920.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2922.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2924.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2926.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2930.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2932.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2934.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2936.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2938.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2940.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2942.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2944.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2948.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2950.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2952.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2954.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2956.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/test/good/Cam2_2958.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_157.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_163.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_165.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_169.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_175.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_179.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_183.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_195.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_197.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_199.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_219.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_227.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_233.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_235.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_237.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_239.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_243.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_245.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_267.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_269.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_273.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_275.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_279.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_283.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_285.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_287.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_295.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_297.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_299.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_313.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_317.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_323.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_325.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_327.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_329.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_331.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_335.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_341.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_343.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_345.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_347.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_351.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_353.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_357.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_363.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_365.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_367.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_369.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_373.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_377.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_379.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_385.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_387.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_389.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_391.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_399.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_405.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_407.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_409.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_411.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_413.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_415.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_421.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_423.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_425.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_427.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/fabric_tunus/train/good/Cam1_97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/anomaly_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/blur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/callbacks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/dynamic_buffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/export_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/k_center_greedy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/memory_bank_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metrics/threshold/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metrics/threshold/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metrics/threshold/f1_adaptive_threshold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/metrics/threshold/manual_threshold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/patchcore/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/patchcore/anomaly_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/patchcore/lightning_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/patchcore/torch_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/random_projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/rich.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/tiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/timm.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2mBSIrB0mrROOVXHPKSqUtUQ9uf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/serkon/PycharmProjects/CustomAnomalibLast/utils/metrics"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast\utils\metrics" />
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast\utils" />
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast\dataset" />
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast\utils\callbacks" />
+      <recent name="C:\Users\serkon\PycharmProjects\CustomAnomalibLast\utils\metrics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CustomAnomalibLast" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (MetoProject) (5)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4458888-6c4d-437d-8a24-e7fb16162491" name="Changes" comment="" />
+      <created>1726548399703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726548399703</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
